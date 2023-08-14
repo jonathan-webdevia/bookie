@@ -165,6 +165,7 @@ body {
  *************** PERSO CSS *********************
  ***********************************************/
 
+ /**** Header ****/
 header > .logoAndMenu {
   display: flex;
   justify-content: space-between;
@@ -201,7 +202,7 @@ header nav ul > li:hover {
   color: var(--main-color);
 }
 
-/* SECTION RESERACH */
+/**** SECTION RESERACH ****/
 
 .research > h1 {
   font-size: 1.3em;
@@ -298,6 +299,8 @@ header nav ul > li:hover {
   display: flex;
 }
 
+/**** Hebergements section ****/
+
 .hebergements > .articleContainer {
   display: flex;
   justify-content: space-between;
@@ -331,6 +334,9 @@ header nav ul > li:hover {
 .hebergements .card .card-rating {
   margin: 10px 5px;
 }
+
+
+/**** activities SECTION ****/
 
 .activities section {
   width: 100%;
@@ -373,6 +379,8 @@ header nav ul > li:hover {
   gap: 10px;
   align-self: stretch;
 }
+
+/**** Footer ****/
 
 footer {
   display: flex;
