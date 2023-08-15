@@ -65,7 +65,7 @@ body {
 .hebergements-and-populaires {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 
 .hebergements-and-populaires section {
