@@ -187,6 +187,7 @@ header nav ul > li {
   margin: 0 20px;
   padding: 10px 0;
   transition: 500ms;
+  border-top: 2px solid white;
 }
 
 header nav ul > li a {
@@ -195,14 +196,13 @@ header nav ul > li a {
 }
 
 header nav ul > li.active,
-header nav ul > li:visited,
 header nav ul > li:hover {
   border-top: 2px solid var(--main-color);
   transition: 500ms;
   color: var(--main-color);
 }
 
-/**** SECTION RESERACH ****/
+/**** SECTION RESEARCH ****/
 
 .research > h1 {
   font-size: 1.3em;
@@ -384,9 +384,9 @@ header nav ul > li:hover {
 
 footer {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   gap: 30px;
-  align-self: stretch;
   margin-top: 40px;
   background-color: var(--main-bg-color);
 }
@@ -549,7 +549,6 @@ footer ul li {
     padding: 30px;
     flex-direction: column;
     align-items: flex-start;
-    align-self: stretch;
   }
   footer section {
     padding: 0;
