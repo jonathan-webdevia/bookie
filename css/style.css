@@ -83,7 +83,6 @@ body {
 /****** Populaires ***********/
 .populaires {
   width: 32%;
-    margin-bottom: 50px;
 }
 
 .populaires-title {
@@ -422,6 +421,8 @@ footer ul li {
   .hebergements {
     width: 100%;
   }
+  .populaires {
+    margin-bottom: 50px;
   .activitiesContainer .card img {
     height: 200px;
   }
