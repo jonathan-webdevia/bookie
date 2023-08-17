@@ -78,12 +78,12 @@ body {
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
-  margin-bottom: 50px;
 }
 
 /****** Populaires ***********/
 .populaires {
   width: 32%;
+    margin-bottom: 50px;
 }
 
 .populaires-title {
